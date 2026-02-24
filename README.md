@@ -52,10 +52,11 @@ The automated CI/CD pipeline requires the following secrets to be configured in 
 ##  Screenshots & Deliverables
 <img width="1897" height="1131" alt="Screenshot 2026-02-24 175044" src="https://github.com/user-attachments/assets/acdc4222-e737-4f51-8426-16c6003f881a" />
 <img width="1916" height="1126" alt="Screenshot 2026-02-24 175100" src="https://github.com/user-attachments/assets/6cbf218d-c005-475f-95b2-cb5e6d6c4660" />
+<img width="1919" height="1076" alt="Screenshot 2026-02-24 180558" src="https://github.com/user-attachments/assets/e4dce5b8-9ad5-487c-b973-31b1124751b0" />
+<img width="1909" height="1078" alt="Screenshot 2026-02-24 180621" src="https://github.com/user-attachments/assets/ccb591d1-eb92-4bf8-90be-b1a3ad904e74" />
+<img width="1901" height="1084" alt="Screenshot 2026-02-24 180636" src="https://github.com/user-attachments/assets/e3535467-c4c4-431f-aba3-dc6b1c01f104" />
 
 
 
-1. **Working Application UI**: (Insert screenshot of the app running in the browser on the VM's IP address)
-2. **CI/CD Configuration & Success**: (Insert screenshot of the passing GitHub Actions workflow)
-3. **Docker Hub Images**: (Insert screenshot of the pushed images in your Docker Hub account)
-4. **Nginx Setup / Infrastructure**: (Insert screenshot of the VM terminal running `docker ps` showing the Nginx, Node, Angular, and Mongo containers running)
+
+
