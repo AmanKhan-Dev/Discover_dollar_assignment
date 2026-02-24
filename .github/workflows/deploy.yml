@@ -42,15 +42,15 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     steps:
-      - name: Deploy to Ubuntu VM
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.VM_HOST }}
-          username: ${{ secrets.VM_USERNAME }}
-          key: ${{ secrets.VM_SSH_KEY }}
-          script: |
-            cd /opt/mean-app || exit
-            # Pull latest images
-            docker-compose pull
-            # Restart containers
-            docker-compose up -d --remove-orphans
+    - name: Deploy to Ubuntu VM
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.VM_HOST }}
+        username: ${{ secrets.VM_USERNAME }}
+        key: ${{ secrets.VM_SSH_KEY }}
+        script: |
+          cd /opt/mean-app || exit
+          docker compose down
+          docker compose pull
+          docker compose up -d --remove-orphans
+    
