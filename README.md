@@ -50,6 +50,7 @@ The automated CI/CD pipeline requires the following secrets to be configured in 
 ---
 
 ##  Screenshots & Deliverables
+<img width="1897" height="1131" alt="Screenshot 2026-02-24 175044" src="https://github.com/user-attachments/assets/acdc4222-e737-4f51-8426-16c6003f881a" />
 
 
 1. **Working Application UI**: (Insert screenshot of the app running in the browser on the VM's IP address)
