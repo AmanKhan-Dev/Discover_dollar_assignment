@@ -19,11 +19,9 @@ services:
     environment:
       - DB_URL=mongodb://mongo:27017/dd_db
 
-  frontend:
+    frontend:
     build: ./frontend
     container_name: mean_frontend
-    ports:
-      - "80:80"
     depends_on:
       - backend
 
