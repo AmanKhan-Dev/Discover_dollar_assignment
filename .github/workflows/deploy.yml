@@ -9,6 +9,8 @@ on:
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
+    env:
+      BUILDX_NO_DEFAULT_ATTESTATIONS: 1
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
